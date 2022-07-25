@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.contenedor {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.menu {
+  width: 100%;
+  background: #2f2f2f;
+  text-align: center;
+  position: fixed;
+}
+
+.menu ul {
+  list-style: none;
+}
+
+.menu ul li {
+  display: inline-block;
+  padding: 25px;
+  transition: all 0.3s ease;
+}
+
+.menu ul li:hover {
+  transform: scale(1.2);
+  background: #626363 ;
+}
+
+.menu ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-family: "Roboto";
+}
+
+#titulo {
+  background-color: #626363;
+  color: white;
+  text-align: center;
+  font-family: "Roboto";
+  padding: 15px;
+}
+
+.title {
+  margin-bottom: 40px;
+  font-size: 60px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+footer {
+  background-color: #2f2f2f;
+  text-align: center;
+  color: white;
+  font-family: "Roboto";
+  padding: 15px;
+  margin-top: auto;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.descripcion {
+  font-size: 25px;
+  font-family: "Roboto";
+  text-align: center;
+  font-weight: bold;
+  padding-left: 150px;
+  padding-right: 150px;
+  margin: 100px;
+}
+
+.wrap{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background:linear-gradient(to right,
+  rgb(0 0 0 / .5),rgb(0 0 0 / .5)),url(../images/paisaje.jpg);
+  background-size:cover ;
+  background-position: center;
+}
+
+.wrap-titulo{
+  color: #fff;
+  text-align: center;
+  width: 45%;
+  font-family: 'Roboto';
+  font-size: 30px;
+  padding: 25px;
+  border: 2px solid white;
+}
+
+.wrap-titulo p{
+  font-size: 20px;
+  padding: 25px;
+}
+
+
+
+
